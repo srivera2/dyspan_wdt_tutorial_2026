@@ -2,7 +2,7 @@
 title:               Welcome to Geo2SigMap
 tagline:             'DySPAN 2026'
 description:         'Getting Started'
-url:                 http://localhost:4000
+url:                 https://lanyon.getpoole.com
 baseurl:             ''
 paginate:            5
 permalink:           pretty
