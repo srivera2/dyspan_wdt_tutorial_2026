@@ -3,9 +3,12 @@ layout: page
 title: Tutorial Timeline
 ---
 
-In the ```Geo2SigMap``` repo, you can find the tutorial notebooks in ```\research\examples```. If you are operating locally, make sure you have switched to the ```\dyspan2026``` branch. These notebooks have been configured to work with the newest release of ```Sionna-RT``` (v2.0.0).
+In the ```Geo2SigMap``` repo, you can find the tutorial notebooks in ```\research\examples```. If you are operating locally, make sure you have switched to the ```\dyspan``` branch. These notebooks have been configured to work with the newest release of ```Sionna-RT``` (v2.0.0).
 
 **The following section summarizes each of the tutorial notebooks in order:**
+
+### Tutorial 0: Building a 3D Environment
+Take a closer look into the scene generation framework behind ```Geo2SigMap```. You will learn how to utilize package-specific helper functions to query OpenStreetMap (OSM), estimate building heights and crate 3-D triangle mesh files--which are all used to program a Sionna-compatible scene.xml file. You will have an option to customize your desired scene area for any geographical reigon supported by OSM.
 
 ### Tutorial 1: Introduction to Coverage Maps
 Generate a radio coverage (path gain) map using Sionna RT on a Geo2SigMap scene. Configure a transmitter at 3.65 GHz (CBRS band), run the RadioMapSolver over a grid of receiver locations with up to 5 reflection depths, and visualize the result overlaid on the 3D scene. Covers both flat-terrain and LiDAR-terrain scene variants, including area-weighted projection of path gain onto the LiDAR mesh.
